@@ -1,0 +1,35 @@
+Consigne pour les exercices : 
+Le resultat de chaque programme doivent être affiche sur la page Web (via le DOM).
+Les exercices doivent utiliser git et un repo en ligne (GitHub, ...).
+
+
+ 1) Détection d'une année bissextile
+ ***********************************
+Réaliser un algorithme qui permet de définir si une année donnée (via prompt) 
+par l'utilisateur est bissextile ou non.
+
+Règle  : Une année est bissextile si elle est divisible par 4, mais elle n'est pas
+          divisible par 100. A l'exception des années qui sont divisibles par 400.
+Exemple : Non bissextile : 1999, 2003, 2100
+            Bissextile: 2004, 2080, 2000
+
+
+ 2) Réaliser un programme de cotation d'un eleve
+ ***********************************************
+L'utilisateur encode une cotation de 0 jusqu'à 20.
+Le programme lui indique le grade correspondant : 
+   • 20    : Excellent
+   • 17-19 : Très bien
+   • 13-16 : Bien
+   • 10-12 : Suffisant
+   • 8-9   : Insuffisant
+   • 0-7   : Echec
+   • Gérer les erreurs de saisie
+
+
+ 3) Réaliser un programme de gestion de date
+ *******************************************
+L'utilisateur encode une date au format "DD-MM-YYYY".
+Vérifier si la date est valide et ensuite obtenir le jour de la semaine.
+
+Vous pouvez utiliser l'objet Date du JavaScript :)
