@@ -1,0 +1,26 @@
+1) Gestion de dépences
+    L'utilisateur encode son budget max.
+    Ensuite il peut encoder les dépences prévu.
+    Attention, le total des dépences ne peut pas dépassé le budget.
+
+    Lors de l'encodage d'une valeur identique (aux précédentes),
+    demande une validation à l'utilisateur (via le "confirm").
+
+    Afficher : 
+     - Le budget restant
+     - La plus grosse dépence
+     - La dépence moyenne
+
+
+2) App d'encodage de score d'un jeu.
+    L'utilisateur encode le nom des joueurs et le nombre de manche.
+    Ensuite, encode le resultat pour chaque manches.
+
+    Afficher :
+     - Le meilleur joueur et son score
+     - (Bonus) Afficher le classement
+
+
+Note :
+ Les interactions d'encodage se réalise via un "prompt"
+ L'affichage se fait dans la page Web
